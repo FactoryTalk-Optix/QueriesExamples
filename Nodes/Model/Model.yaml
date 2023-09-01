@@ -1,0 +1,25 @@
+Name: Model
+Type: FolderType
+Children:
+- Name: ColArray
+  Id: g=e559d16baade0837347664d745ed07e4
+  Type: BaseDataVariableType
+  DataType: String
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+  Value: ["Column1","Column2"]
+- Name: Values
+  Id: g=5555a6a6fda2ebb3dc653d8e1e126b06
+  Type: BaseDataVariableType
+  DataType: Int32
+  ValueRank: 2
+  ArrayDimensions: [2,2]
+  Value: 
+   {
+    "Type": 6,
+    "Dimensions": [2,2],
+    "Body": [
+     0,0,
+     0,0
+    ]
+   }
